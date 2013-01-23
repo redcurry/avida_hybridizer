@@ -1,0 +1,6 @@
+#!/bin/bash
+
+g++ *.cc -c
+ar r libavida.a *.o
+mv libavida.a ../lib/
+rm *.o
